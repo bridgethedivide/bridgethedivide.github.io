@@ -1,0 +1,189 @@
+/* style.css
+   CSS File for Deepam Website
+*/
+
+body {
+    background-color:#fb3;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h2 {
+    color: #f80;
+    text-shadow: 0px 1px #666;
+    font-family: Helvetica;
+}
+
+h3 {
+    color: #555;
+}
+
+a {
+    color: #067;
+    text-decoration:none;
+}
+
+ol{
+    padding-left:20px;
+}
+
+#page {
+    position:relative;
+    margin: 0 auto;
+    top:-12px;
+    width:940px;
+    color:#111;
+    background-color:#fff;
+}
+
+#content {
+   padding: 0 15px 15px 15px;
+   line-height:155%;
+}
+
+#main {
+    position:relative;
+    top:30px;
+    font-size:80%;  
+}
+
+#navigation ul {
+    margin:0;
+    padding-left:7px;
+    list-style-type:none;
+    width:auto;
+    position:relative;
+    top:10px;
+    display:block;
+    height:20px;
+}
+
+#navigation li {
+    display:block;
+    padding:0;
+    margin-right:3px;
+    float:left; 
+}
+
+#navigation li a {
+    display: block;
+    padding:10px 13px 10px 14px;
+    margin:0;
+    color: #080;
+    text-decoration: none;
+    font-size: 80%;
+    background-color: #fb3;
+    box-shadow: 0px 1px 2px #f80;
+}
+
+#navigation li a:hover {
+    box-shadow: 0px 1px 2px #040;
+}
+
+#navigation .selected a {
+    box-shadow: 0px 1px 2px #040;
+}
+
+img .banner {
+    width:899px; 
+    height:125px;
+}
+
+
+
+#divider {
+    clear:both;
+    height:600px;
+}
+
+#divider .div1 {
+    float:left;
+    width:500px;
+    padding:10px;
+}
+
+#divider .div2 {
+    position:relative;
+    top: 50px;
+    left:50px;
+}
+
+#footer-wrapper {
+    position:relative;
+    top:-4px;
+    background-color: #222;
+}
+
+#footer {
+    text-align:center;
+    padding:5px;
+    color: #fff;
+    font-size:85%;
+    font-variant:small-caps;
+}
+
+#footer-wrapper hr {
+    color:#fb3;
+}
+
+/* ------- index.html ------- */
+
+#introbanner {
+    margin: 0 0 0 -6px;
+}
+
+.quote {
+    color: #222;
+    font-size: 130%;
+}
+
+#joinhandstext {
+    color: #111;
+    font-size: 110%;
+}
+
+
+/* ------- faq.html ------- */
+
+#faq ol {
+    margin:0;
+    padding-left:20px;
+    margin-bottom:50px;
+}
+
+#faq li a {
+    color: #333;
+    text-decoration:underline;
+}
+
+#faq li a:hover {
+    color: #f40;
+}
+
+#faq h3 {
+    font-size: 105%;
+}
+
+#faq p {
+    padding-left: 20px;
+}
+
+/* ------- whatwedo.html ------- */
+
+.shlist {
+    font-weight:bold;
+    color:#111;
+    margin-top:5px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.shcontent {
+    color:#333;
+    padding-left:20px;
+    display:none;
+}
+
+.shlist img {
+    width: 1.4%;
+    padding-right:5px;
+}
